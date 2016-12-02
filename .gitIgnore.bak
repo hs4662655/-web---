@@ -1,0 +1,10 @@
+modules
+*.ipr
+*.iws
+*.iml
+tmp
+logs
+.idea
+documentation
+
+
