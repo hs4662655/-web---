@@ -3,7 +3,7 @@
     padding: 0;
 
     -webkit-tap-highlight-color: transparent; /*清除点击默认的高亮效果*/
-    -webkit-box-sizing: border-box; /*以你的border开始计算你的宽度*/
+    -webkit-box-sizing: border-box; /*以你的border开始计算你的宽度 适应百分比布局*/
 }
 
 body {
@@ -20,3 +20,42 @@ a {
 ul {
     list-style: none;
 }
+
+input, textarea {
+    border: none;
+    resize: none; /*禁止伸缩*/
+    outline: none; /*清除默认选中框*/
+
+    -webkit-appearance: none; /*针对移动设备表单里比如输入框默认的立体效果*/
+}
+
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+[class^="icon_"] {
+    background: url("../img/sprites.png") no-repeat;
+    background-size: 200px 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
