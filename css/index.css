@@ -23,7 +23,7 @@ body {
 .jd_header .jd_header_box {
     min-width: 300px;
     max-width: 640px;
-    background: rgba(201, 21, 35, 0.85);
+    background: rgba(201, 21, 35, 0);
     margin: 0 auto;
     height: 40px;
     position: relative;
